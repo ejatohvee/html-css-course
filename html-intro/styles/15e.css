@@ -1,0 +1,18 @@
+.product-preview {
+    position: relative;
+    display: inline-block;
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-family: Roboto, Arial;
+}
+
+.product-picture {
+    width: 350px;
+}

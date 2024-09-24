@@ -1,0 +1,44 @@
+.friend-image {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+p {
+    font-family: Arial;
+    margin: 0 0 0 6px;
+}
+
+.friend-name {
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-top: 4px;
+}
+
+.common-friends {
+    font-size: 10px;
+    color: grey;
+    display: inline-block;
+
+    margin-top: 4px;
+}
+
+.add-friend-button {
+    color: white;
+    background-color: rgb(24, 119, 242);
+    border: none;
+    border-radius: 2px;
+
+    padding: 6px 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 6px;
+}
+
+.friend-suggest {
+    width: 130px;
+    box-shadow: 1px 1px 4px rgba(128, 128, 128, 0.4);
+    display: inline-block; /* two last lines for 9g */
+    margin-right: 8px;
+}

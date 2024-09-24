@@ -1,0 +1,57 @@
+.picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 10px;
+}
+
+.first-sidebar {
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 0;
+    background-color: #383838;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body {
+    height: 5000px;
+}
+
+div {
+    font-family: Arial, serif;
+}
+
+.second-sidebar {
+    position: fixed;
+    left: 70px;
+    top: 0; bottom: 0;
+    width: 150px;
+    background-color: #3f3f3f;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info {
+    color: white;
+}
+
+.create-new {
+    font-size: 26px;
+    color: #cbcaca;
+}
+
+.channel {
+    margin-bottom: 16px;
+    color: #858585;
+}
